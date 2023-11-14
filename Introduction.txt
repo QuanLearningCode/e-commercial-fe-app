@@ -1,0 +1,4 @@
+Các thư viện đã cài đặt:
+1. React Router
+2. React Redux, React Redux-Toolkit
+3. FontAwesome

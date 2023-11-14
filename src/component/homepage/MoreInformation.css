@@ -1,0 +1,58 @@
+.MoreInformation_top {
+  background-color: rgb(240, 240, 240);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10rem;
+  font-style: italic;
+  margin: auto 1rem;
+}
+
+.MoreInformation_top h4 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.MoreInformation_top p {
+  font-weight: 400;
+}
+
+.MoreInformation_bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 1rem;
+  font-style: italic;
+}
+
+.MoreInformation_bottom h4 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.MoreInformation_bottom p {
+  font-weight: 400;
+}
+
+.MoreInformation_bottom input {
+  padding: 1.25rem;
+  width: 25rem;
+  border: 1.5px solid var(--placeholder-text-color);
+  outline: none;
+}
+
+.MoreInformation_bottom input::placeholder {
+  color: var(--price-text-color);
+}
+
+.MoreInformation_bottom button {
+  padding: 1.25rem;
+  width: 7rem;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  background-color: var(--main-text-color);
+  color: var(--contrast-text-color);
+  cursor: pointer;
+}

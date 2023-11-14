@@ -1,0 +1,89 @@
+.RegisterPage_background {
+  background-image: linear-gradient(
+      rgba(15, 15, 15, 0.1),
+      rgba(15, 15, 15, 0.1)
+    ),
+    url("../homepage/image/banner1.jpg");
+  background-size: contain;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.RegisterPage_container {
+  background-color: var(--light-background);
+  width: 30%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
+}
+
+.RegisterPage_sign-up {
+  font-size: 42px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 2.5rem;
+  color: var(--price-text-bolder-color);
+}
+
+.RegisterPage_container input {
+  display: block;
+  height: 3.5rem;
+  width: 22rem;
+  padding: 1rem;
+  border: 1px solid var(--placeholder-text-color);
+  border-bottom: none;
+  outline: none;
+}
+
+.RegisterPage_container input:last-child {
+  border-bottom: 1px solid var(--placeholder-text-color);
+}
+
+.RegisterPage_container button {
+  width: 100%;
+  margin: 1rem 0 2rem 0;
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+  background-color: var(--main-text-color);
+  color: var(--contrast-text-color);
+}
+
+.RegisterPage_container p {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  color: var(--price-text-bolder-color);
+}
+
+.RegisterPage_login-click a {
+  text-decoration: none;
+  color: var(--link-text-color);
+}
+
+.RegisterPage_login-click a:hover {
+  color: var(--linkHover-text-color);
+}
+
+.invalid_input {
+  font-size: 14px !important;
+  color: var(--error-text) !important;
+  margin: 5px 0;
+  text-align: start;
+  width: 90%;
+}
+
+.form_error {
+  text-align: center;
+  color: red !important;
+  font-size: 14px !important;
+  font-style: italic;
+  margin-bottom: 15px;
+}

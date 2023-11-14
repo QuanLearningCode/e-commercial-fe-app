@@ -1,0 +1,24 @@
+.ContentShopPageFilter_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ContentShopPageFilter_container input {
+  padding: 0.7rem;
+  width: 15rem;
+  border: 1px solid var(--placeholder-text-color);
+  outline: none;
+}
+
+.ContentShopPageFilter_container input::placeholder {
+  color: var(--price-text-color);
+}
+
+.ContentShopPageFilter_container select {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--light-background);
+  color: var(--main-text-color);
+  font-weight: 400;
+}

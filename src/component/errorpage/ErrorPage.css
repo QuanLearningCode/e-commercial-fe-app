@@ -1,0 +1,7 @@
+.ErrorPage_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10rem 1rem;
+  font-style: italic;
+}

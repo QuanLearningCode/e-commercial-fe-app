@@ -1,0 +1,5 @@
+.ShopPage_content--container {
+  display: flex;
+  gap: 3rem;
+  margin: 2rem;
+}

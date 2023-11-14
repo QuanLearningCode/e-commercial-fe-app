@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+:root {
+  --main-text-color: #212529;
+  --contrast-text-color: #f8f9fa;
+  --hoverNav-text-color: #f08c00;
+  --link-text-color: #1c7ed6;
+  --linkHover-text-color: #1864ab;
+  --price-text-color: #adb5bd;
+  --price-text-bold-color: #868e96;
+  --price-text-bolder-color: #495057;
+  --placeholder-text-color: #ced4da;
+  --light-background: #f1f3f5;
+  --error-text: #e03131;
+  --success-text: #2b8a3e;
+  --lighter-background-btn: #343a40;
+  --border-chat: rgb(197, 197, 197, 0.8);
+  --customer-chat-text: #339af0;
+}
+
+html {
+  font-size: 16px;
+  color: var(--main-text-color);
+  line-height: 1.4;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", "Roboto", sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,38 @@
+.NavShopPage_container {
+  width: 20%;
+  font-style: italic;
+}
+
+.NavShopPage_container h3 {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 1rem auto;
+}
+
+.NavShopPage_container h4,
+.NavShopPage_container li {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+.NavShopPage_container h4 {
+  pointer-events: none;
+  background-color: var(--light-background);
+}
+
+.NavShopPage_container li:hover {
+  color: var(--hoverNav-text-color);
+}
+
+.NavShopPage_container_category-clicked {
+  color: var(--hoverNav-text-color);
+}
+
+/*Tạo kiểu cho APPLE của thanh nav*/
+.NavShopPage_apple {
+  background-color: var(--main-text-color) !important;
+  color: var(--contrast-text-color);
+}

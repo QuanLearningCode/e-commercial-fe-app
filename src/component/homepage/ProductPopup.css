@@ -1,0 +1,100 @@
+.ProductPopup_container {
+  width: 950px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  padding: 1.5rem 3rem 1.5rem 1.5rem;
+  font-style: italic;
+  margin: auto;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 12rem;
+  left: 20%;
+  background-color: var(--contrast-text-color);
+  box-shadow: 1px 1px 15px 6px rgba(88, 88, 88, 0.3);
+  z-index: 1;
+}
+
+/*Phần hình ảnh*/
+.ProductPopup_container img {
+  height: 50%;
+  width: 50%;
+}
+
+/*Phần nội dung*/
+.ProductPopup_content--title {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--main-text-color);
+}
+
+.ProductPopup_content--price {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0.5rem auto;
+}
+
+.ProductPopup_content--description {
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.ProductPopup_content--button {
+  width: 10rem;
+  padding: 0.7rem;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--main-text-color);
+  color: var(--contrast-text-color);
+  cursor: pointer;
+}
+
+.ProductPopup_content--button a {
+  color: rgb(241, 241, 241);
+  text-decoration: none;
+}
+
+.ProductPopup_content--button svg {
+  margin-right: 5px;
+}
+
+.ProductPopup_closeBtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-style: normal;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 13px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 99px;
+  padding: 15px;
+  box-shadow: -1px 1px 8px rgba(119, 119, 119, 0.5);
+}
+
+/* .ProductPopup_container--hidden {
+  display: hidden;
+} */
+
+.popup_container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .popup_background {
+  background-color: var(--main-text-color);
+  position: absolute;
+  bottom: 8rem;
+  left: 0;
+  filter: blur(1px);
+  z-index: 0;
+} */

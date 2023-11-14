@@ -1,0 +1,182 @@
+/*Bảng sản phẩm trong giỏ và Phần tính tổng giá trị các sản phẩm*/
+.ProductCartPage_list-bill {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 1rem;
+}
+
+.ProductCartPage_shopping-cart {
+  margin: 4rem 1rem 1rem 1rem;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+th {
+  width: 11rem;
+  padding: 1rem;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  background-color: var(--light-background);
+  border: none;
+}
+
+td {
+  text-align: center;
+  font-style: italic;
+  padding: 10px;
+}
+
+/*Phần thông tin từng hàng*/
+.ProductCartPage_img {
+  width: 8rem;
+  padding: 0;
+}
+
+.ProductCartPage_title {
+  font-weight: 700;
+  width: 10rem;
+  font-size: 18px;
+}
+
+.ProductCartPage_quantity span {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 30px;
+}
+
+.ProductCartPage_quantity svg {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.ProductCartPage_delete {
+  color: var(--price-text-color);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.ProductCartPage_price {
+  width: 6rem;
+  color: var(--price-text-color);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/*Tổng các sản phẩm trong bảng*/
+.ProductCartTotal_container {
+  width: 23rem;
+  padding: 2rem;
+  background-color: var(--light-background);
+  font-style: italic;
+  border: none;
+  border-radius: 5px;
+}
+
+.ProductCartTotal_container h3 {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.ProductCartTotal_container p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/*Phần SUBTOTAL*/
+.ProductCartTotal_subtotal-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--placeholder-text-color);
+}
+
+.ProductCartTotal_subTotal_price {
+  font-size: 18px !important;
+  font-weight: 500 !important;
+  color: var(--price-text-color);
+}
+
+/*Phần TOTAL*/
+.ProductCartTotal_total-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.ProductCartTotal_total_price {
+  font-size: 24px !important;
+  font-weight: 600 !important;
+}
+
+/*Phần Coupon*/
+.ProductCartTotal_container input {
+  width: 100%;
+  outline: none;
+  padding: 0.6rem;
+  border: 1px solid var(--placeholder-text-color);
+  margin: 0;
+  display: block;
+}
+
+.ProductCartTotal_container input::placeholder {
+  color: var(--placeholder-text-color);
+}
+
+.ProductCartTotal_container button {
+  display: block;
+  width: 100%;
+  padding: 0.6rem;
+  border: none;
+  background-color: var(--main-text-color);
+  color: var(--contrast-text-color);
+  cursor: pointer;
+}
+
+/*Phần Điều hướng bên dưới Bảng*/
+.ProductCartPage_navigation {
+  width: 70.5%;
+  height: 6rem;
+  margin: 1rem 1rem 3rem 1rem;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--light-background);
+}
+
+.ProductCartPage_navigation a {
+  text-decoration: none;
+  color: var(--price-text-bold-color);
+  font-size: 16px;
+  font-weight: 500;
+  font-style: italic;
+  cursor: pointer;
+  text-align: center;
+}
+
+.ProductCartPage_navigation_nav-left {
+  border: none;
+}
+
+.ProductCartPage_navigation_nav-left svg {
+  margin-right: 10px;
+  color: var(--main-text-color);
+}
+
+.ProductCartPage_navigation_nav-right {
+  width: 14rem;
+  padding: 5px;
+  border: 2px solid var(--main-text-color);
+}
+
+.ProductCartPage_navigation_nav-right svg {
+  margin-left: 10px;
+  color: var(--main-text-color);
+}

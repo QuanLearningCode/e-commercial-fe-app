@@ -1,0 +1,33 @@
+.ProductCategories_container {
+  margin: 1rem auto;
+  text-align: center;
+  font-style: italic;
+}
+
+.ProductCategories_container img {
+  margin: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ProductCategories_img {
+  width: 99%;
+  margin: auto;
+}
+
+.ProductCategories_container h4 {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--main-text-color);
+  margin-bottom: 1rem;
+}
+
+.ProductCategories_container p {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--price-text-bold-color);
+}
+
+.ProductCategories_container img:hover {
+  filter: blur(2px);
+}

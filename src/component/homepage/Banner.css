@@ -1,0 +1,35 @@
+.Banner_container {
+  background-image: url("./image/banner1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 550px;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  padding-left: 7rem;
+  font-style: italic;
+}
+
+.Banner_container h4 {
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--price-text-bold-color);
+}
+
+.Banner_container h2 {
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.Banner_container button {
+  padding: 10px 25px;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  color: var(--contrast-text-color);
+  background-color: var(--lighter-background-btn);
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+}

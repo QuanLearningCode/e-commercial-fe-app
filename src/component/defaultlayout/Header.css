@@ -1,0 +1,55 @@
+header {
+  margin: 1rem;
+}
+
+/*Vùng điều hướng bọc ngoài cùng*/
+.Header_Nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 3rem;
+  margin: 1rem 3rem;
+}
+
+/*Điều hướng của từng trang*/
+.Header_navLink {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.Header_navLink svg {
+  margin-right: 5px;
+}
+
+.Header_navLink li {
+  margin-right: 10px;
+}
+
+.Header_navLink span {
+  margin: 0 10px;
+}
+
+.Header_navLink span:first-child {
+  margin-left: 0;
+}
+
+.Header_navLink a {
+  text-decoration: none;
+  color: var(--main-text-color);
+  font-weight: 400;
+  font-style: italic;
+}
+
+.Header_navLink a:hover,
+.Header_navLink a:active {
+  color: var(--hoverNav-text-color);
+}
+
+/*Tên Trang Web*/
+.Header_storeName {
+  font-weight: 600;
+  font-style: italic;
+  font-size: 36px;
+}
